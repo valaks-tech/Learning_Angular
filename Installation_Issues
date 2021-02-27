@@ -53,3 +53,138 @@ PS C:\Users\shail\angular-essential-training> cat C:\Users\shail\AppData\Roaming
 PS C:\Users\shail\angular-essential-training>
 
 Solution: Run the shell with Administrator privilages !
+
+
+Issue#2:
+
+PS C:\Users\shail> ng new contact-manager                                                                               ? Do you want to enforce stricter type checking and stricter bundle budgets in the workspace?
+  This setting helps improve maintainability and catch bugs ahead of time.
+  For more information, see https://angular.io/strict No
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? CSS
+CREATE contact-manager/angular.json (3607 bytes)
+CREATE contact-manager/package.json (1205 bytes)
+CREATE contact-manager/README.md (1023 bytes)
+CREATE contact-manager/tsconfig.json (538 bytes)
+CREATE contact-manager/tslint.json (3185 bytes)
+CREATE contact-manager/.editorconfig (274 bytes)
+CREATE contact-manager/.gitignore (631 bytes)
+CREATE contact-manager/.browserslistrc (703 bytes)
+CREATE contact-manager/karma.conf.js (1432 bytes)
+CREATE contact-manager/tsconfig.app.json (287 bytes)
+CREATE contact-manager/tsconfig.spec.json (333 bytes)
+CREATE contact-manager/src/favicon.ico (948 bytes)
+CREATE contact-manager/src/index.html (300 bytes)
+CREATE contact-manager/src/main.ts (372 bytes)
+CREATE contact-manager/src/polyfills.ts (2830 bytes)
+CREATE contact-manager/src/styles.css (80 bytes)
+CREATE contact-manager/src/test.ts (753 bytes)
+CREATE contact-manager/src/assets/.gitkeep (0 bytes)
+CREATE contact-manager/src/environments/environment.prod.ts (51 bytes)
+CREATE contact-manager/src/environments/environment.ts (662 bytes)
+CREATE contact-manager/src/app/app-routing.module.ts (245 bytes)
+CREATE contact-manager/src/app/app.module.ts (393 bytes)
+CREATE contact-manager/src/app/app.component.html (25757 bytes)
+CREATE contact-manager/src/app/app.component.spec.ts (1084 bytes)
+CREATE contact-manager/src/app/app.component.ts (219 bytes)
+CREATE contact-manager/src/app/app.component.css (0 bytes)
+CREATE contact-manager/e2e/protractor.conf.js (904 bytes)
+CREATE contact-manager/e2e/tsconfig.json (274 bytes)
+CREATE contact-manager/e2e/src/app.e2e-spec.ts (666 bytes)
+CREATE contact-manager/e2e/src/app.po.ts (274 bytes)
+√ Packages installed successfully.
+warning: LF will be replaced by CRLF in .browserslistrc.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .editorconfig.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in angular.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/protractor.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/src/app.e2e-spec.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/src/app.po.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/tsconfig.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in karma.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app-routing.module.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.component.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.component.spec.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.module.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/environments/environment.prod.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/environments/environment.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/polyfills.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/styles.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tsconfig.app.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tsconfig.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tsconfig.spec.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tslint.json.
+The file will have its original line endings in your working directory
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'shail@DESKTOP-8JLAP12.(none)')
+PS C:\Users\shail> ng --version                                                                                         
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+
+
+Angular CLI: 11.2.2
+Node: 14.16.0
+OS: win32 x64
+
+Angular:
+...
+Ivy Workspace:
+
+Package                      Version
+------------------------------------------------------
+@angular-devkit/architect    0.1102.2 (cli-only)
+@angular-devkit/core         11.2.2 (cli-only)
+@angular-devkit/schematics   11.2.2 (cli-only)
+@schematics/angular          11.2.2 (cli-only)
+@schematics/update           0.1102.2 (cli-only)
+
+PS C:\Users\shail>
